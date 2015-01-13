@@ -44,6 +44,8 @@ type File
 
 ### ファイルを作る・開く ###
 
+[sample](https://github.com/handlename/go-file-sample/blob/master/create.go)
+
 - Create
     - ファイル名を指定して新しくファイルを作る。
     - 既にファイルが存在する場合は空にしてから開く。
@@ -60,6 +62,8 @@ type File
 
 ### ファイルに書き込む ###
 
+[sample](https://github.com/handlename/go-file-sample/blob/master/create.go)
+
 - Write
     - []byteをファイルの現在の位置に書き込む。
 - WriteAt
@@ -71,6 +75,8 @@ type File
 
 ### ファイルのメタ情報を編集する ###
 
+[sample](https://github.com/handlename/go-file-sample/blob/master/ch.go)
+
 - Chmod
 - Chown
 - Chtimes
@@ -79,6 +85,8 @@ type File
     - Closeするときに呼ばれる？
 
 ### ディレクトリの情報を取得する ###
+
+[sampl](https://github.com/handlename/go-file-sample/blob/master/readdir.go)
 
 - Readdir
     - 指定したディレクトリのFileInfoのリストを取得する
@@ -96,6 +104,8 @@ type File
 
 type FileInfo
 -------------
+
+[sample](https://github.com/handlename/go-file-sample/blob/master/info.go)
 
 ファイルの情報の入れ物。
 os.Statとos.Lstatの戻り値に使われている。
